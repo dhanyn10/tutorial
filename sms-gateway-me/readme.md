@@ -1,27 +1,19 @@
-# Laravel PHP Framework
+# Contoh Aplikasi Menggunakan API SMSGateway.me
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Aplikasi berikut dibuat berdasarkan artikel yang ada pada blog [Laravel.web.id](http://laravel.web.id/tutorial/membangun-sms-gateway-dengan-android-smsgateway-me-dan-laravel/).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+[![SMSGateway.me.png](https://s12.postimg.org/y8hai0ubh/SMSGateway_me.png)](https://postimg.org/image/e13uppwu1/)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Fitur
 
-## Official Documentation
+- Kirim SMS
+- Manahemen SMS
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Instalasi
+- Clone repositori ini ke mesin lokal.
+- Masuk ke direkori root dan update framework berserta package lainnya menggunakan perintah compo- update.
+- Salin berkas .env.example menjadi .env.
+- Generate key baru dengan perintah php artisan key:generate.
+- Ubah pengaturan basisdata dan email pada berkas .env.
+- Jalankan migrasi dan seeder dengan perintah `php artisan migrate --seed.
+- Jalankan built-in server dengan perintah `php artisan serve dan akses melalui peramban (browser).
