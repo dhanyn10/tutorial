@@ -7,7 +7,7 @@ Aplikasi berikut dibuat berdasarkan artikel yang ada pada blog [Laravel.web.id](
 ## Fitur
 
 - Kirim SMS
-- Manahemen SMS
+- Manajemen SMS
 
 ## Instalasi
 - Clone repositori ini ke mesin lokal.
